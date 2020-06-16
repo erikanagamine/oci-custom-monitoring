@@ -1,8 +1,6 @@
 #!/bin/bash
 
-## https://technology.amis.nl/2020/02/10/use-oci-monitoring-alarms-and-notifications-for-your-own-custom-and-functional-metrics/
-
-export compartmentId=ocid1.compartment.oc1..aaaaaaaayt6ozup3ccuwkq6g7mvailcknd7jizkx5gfab6y3b4yi2h6utsxq
+export compartmentId=<put your compartmentOCId here to monitoring
 export mymetricsnamespace=cpu
 export collectDate=`date --utc +%Y-%m-%dT%H:%M:%S+00:00`
 
