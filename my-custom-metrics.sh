@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export compartmentId=<put your compartmentOCId here to monitoring
+export compartmentId=<put your compartmentOCId here to monitoring>
 export mymetricsnamespace=cpu
 export collectDate=`date --utc +%Y-%m-%dT%H:%M:%S+00:00`
 
