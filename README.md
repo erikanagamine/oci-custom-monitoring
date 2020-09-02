@@ -1,4 +1,4 @@
-# oci-custom-monitoring
+# OCI Custom Monitoring
 
 The usage of this script is by your own responsability. The main object is help if you need to monitoring some resource on OCI.
 
