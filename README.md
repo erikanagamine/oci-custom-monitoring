@@ -27,3 +27,17 @@ Saving to: 'my-custom-metrics.sh'
 
 [oracle@teste ~]$ chmod +x my-custom-metrics.sh
 
+3. Customize script with your own parameters
+CompartmentId
+Region
+
+4. Schedule the script:
+
+```
+[oracle@teste ~]$ crontab -l
+#monitoring collect
+*/5 * * * * sh -x my-custom-metrics.sh -i all > /tmp/monitoring_gen.log
+```
+
+5. Install and configure oci cli
+
