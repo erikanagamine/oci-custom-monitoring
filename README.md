@@ -22,3 +22,8 @@ Saving to: 'my-custom-metrics.sh'
 100%[==============================================================================>] 2,525       --.-K/s   in 0s
 
 2020-09-23 16:16:28 (25.1 MB/s) - 'my-custom-metrics.sh' saved [2525/2525]
+
+2. Give the permissions
+
+[oracle@teste ~]$ chmod +x my-custom-metrics.sh
+
